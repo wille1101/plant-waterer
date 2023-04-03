@@ -1,0 +1,70 @@
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    z-index: 1;
+}
+
+.popup-body {
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    background: #2e323a;
+    color: white;
+    box-shadow: 0px 0.8px 2px rgba(0,0,0,.032),0px 2.7px 6.7px rgba(0,0,0,.048),0px 12px 30px rgba(0,0,0,.08);
+    border-radius: 10px;
+    position: relative;
+}
+
+.popup-header {
+    width: 800px;
+    margin-left: 20px;
+}
+
+.edit-plant-form {
+    width: 500px;
+    height: 200px;
+}
+
+.edit-plant-form .form-group {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto 20px auto;
+}
+
+.edit-plant-form .form-label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.edit-plant-form .form-control {
+    font-size: 16px;
+    height: 30px;
+    color: white;
+    background: #3d4048;
+    font-style: bold;
+    border-radius: 4px;
+    border: 0;
+    outline: none;
+    padding: 12px 20px;
+}
+
+
+.popup-container .btn-container {
+    width: 480px;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,28 @@
+users: {
+  shape: sql_table
+  user_id: UUID {constraint: primary_key}
+  user_name: VARCHAR(40) {constraint: unique}
+  password: VARCHAR(60)
+}
+
+plants: {
+  shape: sql_table
+  plant_id: SERIAL {constraint: primary_key}
+  owner_id: UUID {constraint: foreign_key}
+  name: VARCHAR(40)
+  latin_name: VARCHAR(40)
+  last_watered: DATE
+  watering_interval: INT
+  water_within: DATE
+}
+
+waterings: {
+  shape: sql_table
+  timestamp: DATE
+  plant_id: INT {constraint: foreign_key}
+  owner_id: UUID {constraint: foreign_key}
+}
+
+plants.owner_id -> users.user_id
+waterings.plant_id -> plants.plant_id
+waterings.owner_id -> users.user_id

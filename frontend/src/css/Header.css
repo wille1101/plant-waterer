@@ -1,0 +1,41 @@
+.header {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    border-radius: 4px;
+    max-width: 800px;
+    padding: 20px;
+    margin: 100px auto 20px auto;
+    box-shadow: 0px 0.8px 2px rgba(0,0,0,.032),0px 2.7px 6.7px rgba(0,0,0,.048),0px 12px 30px rgba(0,0,0,.08);
+    border-radius: .5rem;
+    display: flex;
+}
+
+.header .icon-img {
+    margin-top: 15px;
+}
+
+.user-container {
+    width: 200px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-container p {
+    margin: auto auto 0px auto;
+}
+.sign-out-button {
+    background: #ff3e3e;
+    font-size: 16px;
+    color: white;
+    height: 30px;
+    padding: 0 14px 0 14px;
+    border: 1px solid #ff3e3e;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.sign-out-button:hover {
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}

@@ -1,0 +1,62 @@
+.settings-btn {
+    background: #6b6e74;
+    font-size: 26px;
+    color: white;
+    height: 48px;
+    width: 48px;
+    border: 1px solid #6b6e74;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.settings-btn:hover {
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+.settings-popup .delete-btn {
+    background: #ff3e3e; 
+    font-size: 16px;
+    color: white;
+    height: 48px;
+    padding: 0 24px 0 24px;
+    border: 1px solid #ff3e3e;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.settings-popup .delete-btn:hover {
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+.settings-popup .close-btn {
+    font-size: 16px;
+    color: white;
+    background: #585b61;
+    height: 48px;
+    padding: 0 14px 0 14px;
+    border: 1px solid #585b61;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.settings-popup .close-btn:hover {
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+.settings-popup .save-btn {
+    font-size: 16px;
+    background: #41b04a;
+    color: white;
+    height: 48px;
+    padding: 0 14px 0 14px;
+    border: 1px solid #41b04a;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.settings-popup .save-btn:hover {
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}

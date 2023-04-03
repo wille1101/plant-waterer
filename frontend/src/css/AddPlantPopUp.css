@@ -1,0 +1,49 @@
+.add-plant-container {
+    display: flex;
+}
+
+.add-btn {
+    background:#41b04a;
+    font-size: 26px;
+    color: white;
+    align-items: center;
+    border: 1px solid #41b04a;
+    border-radius: 24px;
+    cursor: pointer;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+}
+
+.addplant-popup .close-btn {
+    background: #585b61;
+    font-size: 16px;
+    color: white;
+    height: 48px;
+    padding: 0 14px 0 14px;
+    border: 1px solid #585b61;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0;
+}
+
+.addplant-popup .close-btn:hover {
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+.addplant-popup .save-btn {
+    background: #41b04a;
+    font-size: 16px;
+    color: white;
+    height: 48px;
+    padding: 0 14px 0 14px;
+    border: 1px solid #41b04a;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.addplant-popup .save-btn:hover {
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}
+

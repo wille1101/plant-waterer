@@ -1,0 +1,119 @@
+.login-wrapper {
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    box-shadow: 0px 0.8px 2px rgba(0,0,0,.032),0px 2.7px 6.7px rgba(0,0,0,.048),0px 12px 30px rgba(0,0,0,.08);
+    border-radius: 10px;
+    position: relative;
+}
+
+.register-wrapper {
+    width: 500px;
+    height: 530px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    box-shadow: 0px 0.8px 2px rgba(0,0,0,.032),0px 2.7px 6.7px rgba(0,0,0,.048),0px 12px 30px rgba(0,0,0,.08);
+    border-radius: 10px;
+    position: relative;
+}
+
+.login-wrapper h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.register-wrapper h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.login-form {
+    width: 500px;
+    height: 300px;
+}
+
+.register-form {
+    width: 500px;
+    height: 400px;
+}
+
+.login-form .form-group {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto 20px auto;
+}
+
+.login-form .form-label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.login-form .form-control {
+    font-size: 16px;
+    height: 30px;
+    background: #3d4048;
+    color: white;
+    font-style: bold;
+    border-radius: 4px;
+    border: 0;
+    outline: none;
+    padding: 12px 20px;
+}
+
+.login-form .log-in-btn {
+    background-color: #41b04a;
+    font-size: 16px;
+    color: white;
+    height: 48px;
+    padding: 0 14px 0 14px;
+    border: 1px solid #41b04a;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.login-form .log-in-btn:hover {
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+.login-form .btn-container {
+    width: 480px;
+    height: 60px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.switch-form-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.switch-form-link {
+    color: #4949ff;
+    text-align: center;
+}
+
+.switch-form-link:hover {
+    cursor: pointer;
+}
+
+.login-wrapper .error-message {
+    text-align: center;
+    color: #ff3e3e;
+}
+
+.register-wrapper .error-message {
+    text-align: center;
+    color: #ff3e3e;
+}
+
+.login-form .error-form-input {
+    border: 1px solid #ff3e3e;
+}
