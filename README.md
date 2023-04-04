@@ -21,7 +21,7 @@ Create a .env file with your configuration. Use the .env.example file as a templ
 
 Build the backend then run it:
 
-`go build git.cs.umu.se/dv21wnn/backend`
+`go build github.com/wille1101/plant-waterer/backend`
 
 `./backend`
 
