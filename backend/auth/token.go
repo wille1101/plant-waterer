@@ -8,7 +8,7 @@ import (
     "strings"
 
     "github.com/google/uuid"
-    "github.com/dgrijalva/jwt-go"
+    "github.com/golang-jwt/jwt"
     "github.com/joho/godotenv"
 )
 
