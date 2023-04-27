@@ -9,27 +9,25 @@ This project was done as a uni assignment in the course "Introduction to Databas
 
 ## Installation
 
-### Database
+Copy the .env.example file in backend to .env
 
-Download docker and pull the postgres image. Then start up the database with
+```bash
+cp backend/.env.example backend/.env
+```
 
-`docker-compose up`
+Configure the .env file to your liking
 
-### Backend
+Build the docker images by running
 
-Create a .env file with your configuration. Use the .env.example file as a template.
+```bash
+./build.sh
+```
 
-Build the backend then run it:
+Then start the containers by running
 
-`go build github.com/wille1101/plant-waterer/backend`
-
-`./backend`
-
-### Frontend
-
-Start the frontend in the frontend directory with:
-
-`npm start`
+```bash
+docker compose up -d
+```
 
 ## Stack
 
